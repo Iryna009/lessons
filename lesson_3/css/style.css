@@ -1,0 +1,79 @@
+@import url("reset.css");
+/* Типи селекторів */
+/* Зірочка */
+* {
+    color: red;
+}
+/* Селектор тегу */
+div {
+    color: green;
+}
+/* Селектор класу */
+.love {
+    color: blueviolet;
+}
+/* Селектор id */
+#mazepa-5 {
+    color: rgb(10, 240, 29);
+}
+#mazepa {
+    color: #b21313;
+}
+/* Селектори атрибутів */
+/* Селектор імені атрибуту */
+[href] {
+    color: #137db2;
+}
+/* Селектор імені атрибуту та його значення */
+[href="https://ukrainky.com.ua/u-lizhku-z-kobzarem-kogo-vin-vidbyv-lyubyv-i-prosuvav/"] {
+    color: #ec9d0a;
+}
+/* Селектор імені атрибуту та його значення за умови */
+[class^="love"] {
+    color: rgb(3, 29, 105);
+}
+[class$="text"] {
+    color: crimson;
+}
+[class*="__letter"] {
+    color: darkgreen;
+}
+/* ============== */
+span {
+    color: darkmagenta;
+}
+/* ================ */
+/* Комбінації CSS-селекторів */
+div.end {
+    color: yellow;
+}
+.nine__letter.face {
+    color: indigo;
+}
+div.koxanka,
+p.fine__letter {
+    color: lawngreen;
+}
+/* Вкладеність CSS-селекторів */
+/* Спец символ ПРОБІЛ */
+.note div {
+    color: orangered;
+}
+.book .note {
+    color: blue;
+}
+.note * {
+    color: red;
+}
+/* Спец символ > */
+.two>.one {
+    color: #137db2;
+}
+/* Спец символ ~ */
+.sun~div {
+    color: darkgreen;
+}
+/* Спец символ + */
+.sea+div {
+    color: red;    
+}
