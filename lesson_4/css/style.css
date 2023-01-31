@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Poppins", serif ;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: blueviolet;
+    text-shadow: 3px 3px 10px blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+    text-shadow: 3px 3px 5px blueviolet;
+}
+.singleone {
+   color: aqua;
+}
+div.singletwo {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-weight: 500;
+    color: rgb(240, 114, 10);
+}
+h2.stwo {
+    font-weight: 700;
+}
+.singlethree {
+    font-family: "Gilroy", serif;
+    font-weight: 400;
+    color: #00ff5e
+}
+h2.sthree {
+    font-weight: 700;
+}
+p.sothree {
+    font-weight: 500;
+}
+p.sstwo {
+    text-decoration: line-through;
+}
+p.sistwo {
+    text-transform: capitalize;
+}
+.first {
+    text-align: left;
+}
+.second {
+    text-align: right;
+}
+.title {
+    text-decoration: underline;
+}
+li {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    word-spacing: 20px;
+}
