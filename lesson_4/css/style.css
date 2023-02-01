@@ -59,6 +59,15 @@ h2 {
 .singleone {
    color: aqua;
 }
+p.sone {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+p.ssone {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+}
 div.singletwo {
     font-family: "HelveticaNeueCyr", sans-serif;
     font-weight: 500;
@@ -94,8 +103,8 @@ p.sistwo {
     text-decoration: underline;
 }
 li {
+    font-size: 20px;
     text-align: left;
     text-decoration: underline;
-    font-size: 20px;
     word-spacing: 20px;
 }
