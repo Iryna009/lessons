@@ -1,0 +1,112 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.78;
+    color: #6C757D;   
+}
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: blue;
+}
+.page-one__text {
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+.page-one__text p {
+    line-height: 1.78;
+    margin-bottom: 30px;
+}
+.title {
+    color: #212529;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-weight: 700;
+    max-width: 605px;
+}
+.page-one__image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.page-image {
+    margin-bottom: 80px;
+}
+.page-one__images {
+    font-size: 0;
+}
+.image-left {
+    margin-right: 15px;    
+}
+.image-right {
+   margin-left: 15px;    
+}
+.page-two__image {
+    width: 100%; 
+}
+.page-two {
+    margin-bottom: 100px;    
+}
+/* Practice */
+.stile {
+    margin: 0 20px 80px;
+    border: 5px dotted #f6078f;
+    
+}
+.stile-one {
+    border: 5px solid #0b07f6;
+    border-radius: 10px 20px 40px 60px;
+}
+.stile-two {
+    border: 5px dashed #07f60b;
+}
+.text-border {
+    border-top: 10px solid #f6078f;
+    border-right: 5px dotted #0b07f6;
+    border-bottom: 15px dashed #07f60b;
+    border-left: 20px double #f6ba07;
+    box-shadow: inset 10px 10px 40px 20px #000;    
+}
+.dresses {
+    outline: 10px double #f6ba07;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.dress {
+    margin-left: 50px;
+    border-radius: 30% 70% 29% 71% / 30% 72% 28% 70%; 
+    opacity: 0.6;
+}
+.dress-one {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #07a2f6;
+    color: #fff;
+    border-radius: 50%;
+    border: 5px solid #dcf406;
+    box-shadow: 0 10px 0 0 #000;
+    margin-bottom: 40px;
+    margin-left: 50%;
+    position: relative;
+    line-height: 1.5;
+}
+.button:hover {
+    top: 3px;
+    box-shadow: 0 3px 0 0 #000;
+}
+
