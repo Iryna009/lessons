@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #000000;       
+}
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+.page-one {
+    background: url(../img/bg.webp);
+    padding: 95px 0;
+}
+.page-one__text {
+    max-width: 500px;    
+}
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 2;
+}
+.page-one__icons {
+    max-width: 650px; 
+    background-color: coral; 
+    padding: 15px;  
+    border-radius: 5px;
+}
+.icon {
+    margin-right: 5px;
+}
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.image {
+    display: inline-block;
+    font-size: 18px;
+}
+.group {
+    font-size: 0;
+}
+.page-last__text {
+    background: url(../img/group3/dotted.svg) 5% no-repeat, 
+    url(../img/group3/dotted-2.svg) 20% no-repeat, 
+    url(../img/group3/oval.svg) 30% no-repeat, 
+    url(../img/group3/oval-2.svg) 40% no-repeat, 
+    url(../img/group3/shape.svg) 50% no-repeat, 
+    url(../img/group3/oval-twice.svg) 70% no-repeat, coral;
+    padding: 0 15px 200px;
+    border-radius: 5px;
+}
+.page-last__text p {
+    margin-bottom: 50px;
+}
+.page-last {
+    padding-bottom: 20px;
+}
