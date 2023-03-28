@@ -1,0 +1,256 @@
+@import url("reset.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9c9c9c;           
+}
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper > main {
+    flex-grow: 1;
+}
+.main__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%; 
+}
+.main__block {
+    margin-top: 97px;    
+}
+.main__block:not(:last-child) {
+    margin-bottom: 100px;
+}
+.main__gallery:not(:last-child) {
+    margin-bottom: 100px;
+}
+.block-main__content {
+    margin: 0 auto 53px;
+    text-align: center;
+    max-width: 520px;
+}
+.block-main__title {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4;
+    color: #000000;
+}
+.block-main__subtitle {    
+    color: #000000;
+}
+.block-main__image {
+    overflow: hidden;
+}
+.block-main__image img {
+    max-width: 100%;
+    transition: transform 0.8s;
+}
+
+/* DESCRIPTION */
+.description {
+    display: flex;
+    flex-direction: column;        
+}
+.description__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px 82px;       
+}
+.description__item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 320px;
+    padding: 0 16px;
+}
+.description__title,
+.card__title {   
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #333333;    
+}
+.description__title:not(:last-child) {
+    margin-bottom: 24px;
+}
+.description__text {
+    flex: 1 1 auto;
+}
+.description__text p:not(:last-child) {
+    margin-bottom: 30px;
+} 
+.description__bottom {
+    display: flex;
+    column-gap: 80px;
+} 
+/* GALLERY */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.gallery__image {
+    flex: 0 1 48%;
+    overflow: hidden;
+}
+.gallery__image_big {
+    flex: 0 1 100%;
+    overflow: hidden;
+}
+.gallery__image img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+/* Consultant */
+.main__consultant:not(:last-child) {
+    margin-bottom: 100px;
+}
+.consultant__achievement:not(:last-child) {
+    margin-bottom: 40px;
+}
+.achievement-section__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    text-transform: uppercase;
+}
+.achievement-section__title::after {
+    content: "";
+    display: inline-block;
+    width: 465px;
+    height: 2px;
+    background-color: #000000;
+    vertical-align: middle;
+    margin-left: 26px;
+}
+.consultant__cards:not(:last-child) {
+    margin-bottom: 40px;
+}
+.card {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;    
+}
+.card__image {
+    flex: 0 1 72.17%;
+}
+.card__image img {
+    max-width: 100%;
+}
+.card__items {
+    flex: 0 1 27.83%;    
+}
+.card__title:not(:last-child) {
+    margin-bottom: 20px;
+}
+/* АДАПТИВ */
+@media(any-hover:hover) {
+    .block-main__image img:hover {
+        transform: scale(1.05);
+    }
+    .gallery__image img:hover {
+        transform: scale(1.05);
+    }
+}
+@media(max-width:1024px) {
+    .card {
+        column-gap: 40px;
+    }
+}
+@media(max-width:991.98px) {
+    [class*="__container"] {
+        max-width: 740px;
+    }
+    .main__block:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .description {
+        display: block;
+    }
+    .description__items {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .description__item {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .description__title:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .description__text p:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .description__text:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .main__gallery:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .gallery__image {
+        flex: 0 1 100%;        
+    }
+    .consultant__achievement:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .card {
+        display: block;
+    }
+    .card__image:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .card__title:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media(max-width:479.98px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;                  
+    }
+    .main__block {
+        margin-top: 27px;    
+    }
+    .block-main__title {
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 1.4;        
+    }
+    .block-main__content {
+        margin: 0 auto 20px;
+    }
+    .description__bottom {
+        display: block;
+    } 
+    .gallery {
+        gap: 15px;
+    } 
+    .achievement-section__title::after {
+        content: "";
+        display: inline-block;
+        max-width: 160px;
+        height: 2px;
+        background-color: #000000;
+        vertical-align: middle;
+        margin-left: 16px;
+    }  
+}
